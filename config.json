@@ -1,0 +1,9 @@
+{
+  "clientID": "value of clientID",
+  "details": "value of details",
+  "state": "value of state",
+  "largeImageKey": "value of largeImageKey",
+  "largeImageText": "value of largeImageText",
+  "smallImageKey": "value of smallImageKey",
+  "smallImageText": "value of smallImageText"
+}
