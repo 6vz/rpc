@@ -2,5 +2,7 @@
 Fast & Opensource Discord RPC, based on `discord-rpc` library
 
 # Instruction
-Seriously. I was to lazy to make it here
-Instead just visit the docs at https://docs.labs.surf
+- Download files, and extract it
+- Open CMD, and type `npm install`
+- Fill config.json correctly
+- Run with `node index.js`
