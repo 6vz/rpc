@@ -12,7 +12,7 @@ try {
 } catch(e) {
     console.log('Error:', e.stack);
 }
-console.log(chalk.red(`\nJeśli program nie działa i wywali błąd upewnij się że odpowiednio wypełniłeś plik config.json!\nJeśli masz problemy wejdź na docs.labs.surf, i zapoznaj się z dokumentacją\nJeśli to nie pomoże otwórz Issue na GitHubie\n`))
+console.log(chalk.red(`\nIf RPC Shows an error please make sure you filled up config.json file correctly!\nIf something went wrong please open ticket at GitHub\n`))
 console.log(chalk.blueBright(`\n#################################################################\nŁadowanie Ustawień\n \n• Opis RPC: ${config.details}\n• Subopis RPC: ${config.state}\n• Duże zdjęcie: ${config.largeImageKey} (${config.largeImageText})\n• Małe zdjęcie: ${config.smallImageKey} (${config.smallImageText})\n\• ClientID: ${config.clientID}\n \nPoczekaj... Wczytywanie konfiguracji\n#################################################################`))
 rpc.on("ready", () => {
     rpc.setActivity({
